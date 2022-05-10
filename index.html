@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>K-Digital Training : 2기 빅데이터 플랫폼 프론트엔드 엔지니어링 | 프로그래머스</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <a class="logo" href="https://programmers.co.kr/">
+        <img class="logo__image" src="/assets/bi-programmers-light-0d164d49b51a123bab5cca11106145d6fac5a5ac04b8646780369c2a5bc0dd79.png" alt=""
+      /></a>
+      <nav>
+        <ul class="menu">
+          <li class="menu__item">탑프로그래머스</li>
+          <li class="menu__item">스킬 체크</li>
+          <li class="menu__item">개발자 채용</li>
+          <li class="menu__item">테크 피드</li>
+          <li class="divider"></li>
+          <li class="menu__item">코딩테스트 연습</li>
+          <li class="menu__item menu__item--selected">프로그래밍 강의</li>
+        </ul>
+      </nav>
+      <nav>
+        <ul class="user-menu">
+          <li class="user-menu__item resume">
+            <span class="material-symbols-rounded"> article </span>
+          </li>
+          <li class="user-menu__item">
+            <span class="material-symbols-rounded"> notifications </span>
+          </li>
+          <li class="user-menu__item">
+            <span class="material-symbols-rounded"> account_box </span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <nav class="nav-tab">
+      <div class="item item--selected">강의 소개</div>
+      <div class="item">평가</div>
+      <div class="item">Q&A</div>
+    </nav>
+    <main class="main">
+      <div class="side-menu">
+        <img class="side-menu__thum" src="/assets/PRGMS-Front-End-Dev-2.png" alt="" />
+        <div class="content-wrapper">
+          <div class="title">K-Digital Training : 2기 빅데이터 플랫폼 프론트엔드 엔지니어링</div>
+          <div class="button button--unactive">신청 완료</div>
+          <div class="button button--active">학습하러 가기</div>
+          <ul class="contents">
+            <li class="content__item"><span class="material-symbols-rounded"> devices </span>온/오프라인 코스</li>
+            <li class="content__item"><span class="material-symbols-rounded"> credit_card </span>무료</li>
+            <li class="content__item"><span class="material-symbols-rounded"> share </span>공유하기</li>
+          </ul>
+        </div>
+      </div>
+      <section class="lecture-indroduction">
+        <dl class="content-box">
+          <dt class="content-box__header">💡 [오리엔테이션 일정 안내]</dt>
+          <dd class="content-box__content">
+            프론트엔드 데브코스 2기 오리엔테이션 안내 메일이 발송되었습니다. 메일이 확인되지 않은 경우 채널톡으로 문의해 주세요.
+          </dd>
+        </dl>
+        <dl class="content-box content-box--has-button">
+          <dt class="content-box__header">🚀 아쉽지만 2기는 마감되었어요.</dt>
+          <dd class="content-box__content">미리 ‘오픈 알림 신청’하고 3기에 도전하세요!</dd>
+          <a class="link-button" href="https://programmers.co.kr/learn/courses/13476/notification_form"> 오픈 알림 신청 </a>
+        </dl>
+        <article class="thumbnail">
+          <div class="prefix">K-Digital Training | 100% 정부지원</div>
+          <div class="title">프로그래머스 데브코스 : 빅데이터 플랫폼 프론트엔드 엔지니어링</div>
+          <div class="content">탄탄한 기본기와 역량 강화에 필요한 지식으로 새로운 환경에 빠르게 적응할 수 있는 개발자로 성장하는 시간</div>
+        </article>
+        <article class="summury">
+          <div class="summury-wrapper">
+            <div class="summury__item">
+              <img class="icon" src="./assets/ic-date.png" alt="" />
+              <div class="head">교육 기간</div>
+              <div class="content">
+                2022년 3월 18일(금) ~<br />
+                8월 17일(수), 5개월간
+              </div>
+            </div>
+            <div class="summury__item">
+              <img class="icon" src="/assets/ic-place.png" alt="" />
+              <div class="head">교육 장소</div>
+              <div class="content">온/오프라인 혼합<br />(오프라인 : 서울 강남)</div>
+            </div>
+            <div class="summury__item">
+              <img class="icon" src="/assets/ic-person.png" alt="" />
+              <div class="head">교육 인원</div>
+              <div class="content">60명<br />(각 30명씩 분반 운영)</div>
+            </div>
+          </div>
+        </article>
+        <article class="intro">
+          <div class="title">변화 주기가 짧은<br />프론트엔드 시장</div>
+          <div class="subtitle">
+            <p>취업/이직 혹은 새로운 기술을 도입하기 위해 메인 프레임워크를 변경해야 할 때가 많습니다.</p>
+            <p class="bold">이로 인해 프론트엔드 시장에서 가장 필요한 인재는 새로운 기술에 '빠르게 적응하는 인재'입니다.</p>
+          </div>
+          <figure>
+            <img class="visuals" src="/assets/img_frontend2.png" alt="" />
+          </figure>
+          <div class="detail">
+            '단순 구현'에만 치중되어 라이브러리의 원리를 모르거나 '남들이 사용하니까' 편리한 <br />
+            프레임워크에 의존하여 개발하는 것이 아닌 탄탄한 기본기를 갖춰 원리를 알고,<br />
+            '이게 어떻게 구현되지?'꾸준히 질문할 수 있는 개발자로 성장할 수 있도록 다양한 커리큘럼을 준비했습니다.
+          </div>
+        </article>
+        <article class="quote">
+          "프로그래머스 데브코스와 함께라면<br />
+          견고한 이론, 프로젝트 중심의 실습을 통해<br />
+          경쟁력을 갖춘 '주니어 개발자'로 성장할 수 있습니다."
+        </article>
+        <article class="schedule">
+          <div class="title">일정 안내</div>
+          <ul class="contents">
+            <li class="content__item">
+              <img src="/assets/ic-number-1.png" alt="" class="icon" />
+              <div class="title">서류지원</div>
+              <div class="desc">1월 17일(월) ~ 2월 16일(수) 23:59</div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/ic-number-2.png" alt="" class="icon" />
+              <div class="title">실력 확인 테스트</div>
+              <div class="desc">2월 19일(토) 오후 2~5시</div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/ic-number-3.png" alt="" class="icon" />
+              <div class="title">온라인 면접</div>
+              <div class="desc">2월 24일(목) ~ 3월 3일(목)</div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/ic-number-4.png" alt="" class="icon" />
+              <div class="title">최종 발표</div>
+              <div class="desc">3월 7일(월)</div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/ic-number-5.png" alt="" class="icon" />
+              <div class="title">HRD-net 등록</div>
+              <div class="desc">3월 7일(월) ~ 3월 17일(목)</div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/ic-number-6.png" alt="" class="icon" />
+              <div class="title">교육 시작</div>
+              <div class="desc">3월 18일(금)</div>
+            </li>
+          </ul>
+          <div class="caution">
+            <div class="title">
+              신청시 <br />
+              주의 사항 안내
+            </div>
+            <ul class="caution__list">
+              <li class="item">
+                <input type="radio" id="caution-1" name="caution" />
+                <label for="caution-1">
+                  <div class="title">
+                    지원서 문항 미리보기
+                    <div class="material-symbols-rounded icon">expand_more</div>
+                  </div>
+                  <div class="desc">
+                    아래 지원서 문항을 미리 확인하고 바로 지원하세요<br />
+                    * 지금까지 프로그래밍 공부를 어떻게 했고, 과정에 참여해서는 어떻게 공부를 할 계획인지 알려주세요.<br />
+                    * 프론트엔드 분야로 진출하고자 하는 이유가 무엇인가요? 명확한 신청 동기가 궁금해요.<br />
+                    * 프론트엔드와 관련하여 학습 또는 프로젝트 경험이 있다면 알려주세요.<br />
+                    * 나의 장단점을 자유롭게 이야기해주세요.
+                  </div>
+                </label>
+              </li>
+              <li class="item">
+                <input type="radio" id="caution-2" name="caution" />
+                <label for="caution-2">
+                  <div class="title">
+                    지원 서류 작성 시
+                    <div class="material-symbols-rounded icon">expand_more</div>
+                  </div>
+                  <div class="desc">
+                    '관심 있어서 신청합니다', '재밌어 보여서 신청합니다' 등 개인의 학습 동기나 계획을 확인할 수 없는 경우 무통보 탈락할 수 있습니다.
+                    5개월간 강도 높은 학습을 진행해야 하는 만큼 왜 이 과정에 등록했는지, 어떻게 공부할 계획인지 확인하는 것은 무척 중요한 일이므로
+                    최대한 성심성의껏 작성해 주세요.
+                  </div>
+                </label>
+              </li>
+              <li class="item">
+                <input type="radio" id="caution-3" name="caution" />
+                <label for="caution-3">
+                  <div class="title">
+                    내일배움카드 발급 시
+                    <div class="material-symbols-rounded icon">expand_more</div>
+                  </div>
+                  <div class="desc">
+                    현재 카드가 없거나, 신청 후 기다리는 상태여도 서류 지원은 가능합니다. 다만, 최소 3월 7일(월)까지는 카드 발급이 완료되어 있어야
+                    최종 선발 이후 HRD-net 등록에 문제가 발생하지 않습니다.
+                  </div>
+                </label>
+              </li>
+            </ul>
+            <div class="alert">
+              <img src="/assets/ic-info-16.png" alt="" class="icon" />
+              <div class="detail">
+                기타 궁금한 점은 <a class="page-link" href="">하단의 FAQ</a>를 확인하거나, 우측 하단의 채팅 상담을 이용해주세요.
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="presentation">
+          <div class="header">
+            <div class="title">
+              교육 매니저가<br />
+              직접 말하는<br />
+              프론트엔드 데브코스
+            </div>
+            <div class="subtitle">현업 전문가와 함께 과정을 기획하고 여러분과 5개월을 함께 할 교육매니저의 진심을 담은 이야기를 들어봅시다.</div>
+          </div>
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/c1XOkppgyiU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <a class="link-button" href="https://youtu.be/K_orLMfj5yk" target="_blank">지난 설명회 영상 보러가기</a>
+        </article>
+        <article class="feature">
+          <div class="title">
+            오직,<br />
+            프로그래머스에서만<br />
+            경험할 수 있는 전문 교육!
+          </div>
+          <ul class="contents">
+            <li class="content__item">
+              <img src="/assets/ic-videocam.png" alt="" class="icon" />
+              <div class="title">강사와 소통하는 온라인 라이브 세션</div>
+              <div class="desc">
+                복습으로 해소되지 않는 궁금증은 온라인 라이브 세션에서 강사님과 함께 실시간으로 해결합니다. 궁금했던 현업 이야기도 직접 들을 수 있는
+                기회!
+              </div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/ic-team-manager.png" alt="" class="icon" />
+              <div class="title">소수 정예팀과 담당 멘토단</div>
+              <div class="desc">
+                현업 개발자가 소수의 팀원들을 케어합니다. 학습을 하다 어려운 부분이 생기면 바로 질문하고, 코드 리뷰하며 피드백을 받습니다.
+              </div>
+              <a class="link-button" href="https://prgms.tistory.com/120?category=874979" target="_blank">관련 콘텐츠 살펴보기</a>
+            </li>
+            <li class="content__item">
+              <img src="/assets/ic-full-stack.png" alt="" class="icon" />
+              <div class="title">백엔드 개발자와 함께하는 프로젝트</div>
+              <div class="desc">
+                단순 구현에 집중된 프로젝트가 아닌 백엔드 개발자와 팀 프로젝트를 통해 실무 협업 방식을 간접 경험하며, 효율적인 소통 방식을 배웁니다.
+              </div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/ic-education.png" alt="" class="icon" />
+              <div class="title">완주를 위한 동료 학습</div>
+              <div class="desc">
+                함께 학습하는 코어 타임(13시-19시)을 매일 운영하여 학습을 꾸준히 합니다. 팀 활동 및 정기 스터디, 피어 리뷰 등을 통해 배움을
+                주고받습니다. 같은 목표를 갖고 5개월간 동고동락하는 동료와 함께 성장하고 이겨냅니다.
+              </div>
+            </li>
+          </ul>
+        </article>
+        <article class="recommend">
+          <div class="title">
+            5개월을<br />
+            함께 할 교육생
+          </div>
+          <div class="alert">
+            <img src="/assets/ic-info-16.png" alt="" class="icon" />
+            <div class="detail">
+              국민내일배움카드 소지자만 참여할 수 있으며, 자격 요건 확인 및 신청은&nbsp
+              <a class="page-link" href="https://www.hrd.go.kr/hrdp/hg/phgao/PHGAO0108T.do" target="_blank">이곳</a>에서 가능합니다.
+            </div>
+          </div>
+          <div class="content-wrap">
+            <ul class="contents">
+              <li class="content__item">
+                <div class="emoji">😎</div>
+                <div class="title">기초는 알고 있지만, JavaScript 기본기를 다지고 제대로 된 실무 프로젝트를 경험해보고 싶은 분</div>
+                <div class="desc">프로그래머스 기준 JavaScript 코딩테스트 2단계 정도의 지식을 가지신 분에게 추천합니다.</div>
+              </li>
+              <li class="content__item">
+                <div class="emoji">🔥</div>
+                <div class="title">빡쎈 커리큘럼에도 능동적이고 적극적인 자세로 임하실 분</div>
+              </li>
+              <li class="content__item">
+                <div class="emoji">🤓</div>
+                <div class="title">모르는 것을 두려워하지 않고 탐구하며 마주하는 분</div>
+              </li>
+            </ul>
+            <ul class="contents">
+              <li class="content__item">
+                <div class="emoji">🤖</div>
+                <div class="title">단순 기능 구현 개발자가 아닌 성장하는 웹 프론트엔드 개발자로서 커리어를 시작하고 싶은 분</div>
+              </li>
+              <li class="content__item">
+                <div class="emoji">💪</div>
+                <div class="title">이력서에 남들과 똑같은 프로젝트를 채우는 것이 아닌 진짜 내 프로젝트를 만들고 싶은 분</div>
+              </li>
+              <li class="content__item">
+                <div class="emoji">💬</div>
+                <div class="title">팀과의 협업을 통해 커뮤니케이션 능력을 기르고, 지식 공유를 즐기시는 분</div>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="course-brief">
+          <div class="title">교육과정 훑어보기</div>
+          <div class="subtitle">
+            ‘교육 과정 이수’는 개발자로서 ‘완성'은 아닙니다.<br />
+            기술 변화는 빠르게 찾아오고, 오늘 배운 것은 언젠가 과거의 내용이 됩니다.<br />
+            JavaScript로 시작한 여러분이 몇 년 뒤엔 기술 스택에 변화를 줘야 할 순간이 올 수도 있습니다.<br />
+            이런 상황에서 흔들리지 않기 위해, 프로그래머스에서는 프론트엔드 개발에 대한<br />
+            기본기를 튼튼히 하기 위해 배경을 이해하고 원리를 파악하는 교육을 진행합니다.
+          </div>
+          <div class="stacks">
+            <div class="title">우리가 배우는 기술들</div>
+            <ul class="stack-list">
+              <li class="stack-list__item"><img src="/assets/sec_curriculum_lang_React.png" alt="" /></li>
+              <li class="stack-list__item"><img src="/assets/sec_curriculum_lang_Vue.png" alt="" /></li>
+              <li class="stack-list__item"><img src="/assets/sec_curriculum_lang_Redux.png" alt="" /></li>
+              <li class="stack-list__item"><img src="/assets/sec_curriculum_lang_D3.png" alt="" /></li>
+              <li class="stack-list__item"><img src="/assets/sec_curriculum_lang_JS.png" alt="" /></li>
+            </ul>
+          </div>
+          <ul class="course-list">
+            <li class="course-list__item">
+              <div class="week">Week 1 - 2</div>
+              <div class="title">JavaScript 주요문법 / (선택) 함수형 프로그래밍과 ES6+</div>
+              <div class="detail">
+                JavaScript 기초 문법을 배우는 것이 아닙니다. 실무에서 꼭 알고 있어야 하는 주요 문법들을 학습합니다. 스코프, 배열부터 시작하여 객체지향
+                프로그래밍과 DOM까지 익히며 기본기를 견고하게 다집니다.
+              </div>
+              <ul class="tags">
+                <li class="tag">Scope</li>
+                <li class="tag">Closure</li>
+                <li class="tag">Object-Oriented Programming</li>
+                <li class="tag">Prototype</li>
+                <li class="tag">DOM</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 2 - 3</div>
+              <div class="title">VanillaJS 1</div>
+              <div class="detail">모든 것은 기본으로부터 시작됩니다! 프론트엔드 개발의 기초가 되는 순수 JavaScript를 예제를 통해 학습해 봅니다.</div>
+              <ul class="tags">
+                <li class="tag">VanillaJS</li>
+                <li class="tag">컴포넌트</li>
+                <li class="tag">fetchAPI</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 4 - 5</div>
+              <div class="title">노션클로닝프로젝트(w.VanillaJS)</div>
+              <div class="detail">
+                학습한 내용을 바탕으로 노션의 주요 기능을 VanillaJS로만 구현해 봅니다. 단계별 요구사항을 구현하며 개인별 맞춤 프로젝트가 진행됩니다.
+              </div>
+              <ul class="tags">
+                <li class="tag">fetchAPI</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 5 - 6</div>
+              <div class="title">VanillaJS 2</div>
+              <div class="detail">
+                개인 프로젝트를 통해 직접 VanillaJS를 경험해 본 후, 프레임워크와 라이브러리가 실무에서 사용되는 근본적인 이유를 탐색해 봅니다.
+              </div>
+              <ul class="tags">
+                <li class="tag">개인맞춤프로젝트</li>
+                <li class="tag">VanillaJS</li>
+                <li class="tag">배포</li>
+                <li class="tag">무한스크롤</li>
+                <li class="tag">API</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 7</div>
+              <div class="title">CSS 심화</div>
+              <div class="detail">기본 CSS 지식에 날개를 달아줄 Sass, Modern CSS를 학습하여 편리하고, 세련된 웹을 구현해 봅니다.</div>
+              <ul class="tags">
+                <li class="tag">Sass</li>
+                <li class="tag">ModernCSS</li>
+                <li class="tag">Position</li>
+                <li class="tag">Flex</li>
+                <li class="tag">Grid</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 8 - 9</div>
+              <div class="title">Vue</div>
+              <div class="detail">
+                컴포넌트 정의에 용이하고 TypeScript를 지원하는 프레임워크인 Vue.js를 학습하며 새로운 프레임워크를 습득하는 능력을 길러봅니다.
+              </div>
+              <ul class="tags">
+                <li class="tag">Component</li>
+                <li class="tag">axios</li>
+                <li class="tag">Mini-Project</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 10 - 11</div>
+              <div class="title">React 기초</div>
+              <div class="detail">
+                컴포넌트 재사용성이 뛰어나 채용 시장에서 선호하는 React에 대해 학습합니다. 현업에서 어떤 이유로 자주 사용하는지 직접 구현하면서
+                익힙니다.
+              </div>
+              <ul class="tags">
+                <li class="tag">openAPI</li>
+                <li class="tag">create-react-app</li>
+                <li class="tag">Redux</li>
+                <li class="tag">flux</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 12 - 14</div>
+              <div class="title">팀프로젝트 1</div>
+              <div class="detail">
+                팀 프로젝트를 처음 하는 이들을 위해, 기획부터 시작해 문서화하는 작업까지 협업을 경험해 봅니다. 퍼실리테이터가 이 과정을 함께 하면서
+                밀착 코칭을 합니다.
+              </div>
+              <ul class="tags">
+                <li class="tag">팁협업프로젝트</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 14 - 15</div>
+              <div class="title">React 심화</div>
+              <div class="detail">실무에서는 어떻게 React를 사용하고 있는지, Redux를 통해 어떻게 상태 처리를 하는지 학습합니다.</div>
+              <ul class="tags">
+                <li class="tag">Redux</li>
+                <li class="tag">Hooks</li>
+                <li class="tag">Next.js</li>
+                <li class="tag">Redux-saga</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 16 - 17</div>
+              <div class="title">데이터 시각화</div>
+              <div class="detail">
+                데이터를 정제하여 사용자가 한눈에 필요한 정보를 파악할 수 있는 미니 대시보드 프로젝트를 만들며 데이터 시각화를 진행합니다.
+              </div>
+              <ul class="tags">
+                <li class="tag">canvas</li>
+                <li class="tag">D3.js</li>
+              </ul>
+            </li>
+            <li class="course-list__item">
+              <div class="week">Week 18 - 20</div>
+              <div class="title">최종 프로젝트</div>
+              <div class="detail">
+                실무에서 협업 경험은 무엇보다 중요합니다. 실제로 프론트엔드와 백엔드 과정 교육생이 한 팀이 되어 하나의 프로젝트를 완성해 봅니다.
+              </div>
+              <ul class="tags">
+                <li class="tag">팀프로젝트</li>
+                <li class="tag">협업</li>
+                <li class="tag">포트폴리오</li>
+              </ul>
+            </li>
+          </ul>
+          <div class="alert">
+            <img src="/assets/ic-info-16.png" alt="" class="icon" />
+            <div class="detail">연휴 등 방학 일정에 따라 스케줄이 변동될 수 있습니다.</div>
+          </div>
+          <div class="project-example">
+            <div class="title">다양한 프로젝트 진행</div>
+            <div class="subtitle">
+              개인 클론 프로젝트, 프론트 협업 프로젝트,<br />
+              프론트 백엔드 협업 최종 프로젝트를 거치며 실무에 적응할 수 있는 능력을 얻습니다.
+            </div>
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/B9RTiTRgrGE"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen=""
+              ></iframe>
+            </div>
+            <a class="link-button" href="https://www.youtube.com/playlist?list=PLz4XWo74AOacquRwxB272a22trZUPoGtq" target="_blank">
+              프로젝트 더 보기
+            </a>
+          </div>
+        </article>
+        <article class="benefit">
+          <div class="title">
+            5개월 후<br />
+            여러분은
+          </div>
+          <ul class="contents">
+            <li class="content__item">
+              <div class="title">동작 원리 이해</div>
+              <div class="desc">
+                JavaScript 주요 문법과 VanillaJS를 통해 동작 원리를 이해하고 React/Vue를 사용하는 프로젝트 중심 학습을 통해 실무에서 '왜 쓰이는지'
+                끝없이 고민하고, 답을 낼 수 있는 인재가 됩니다.
+              </div>
+            </li>
+            <li class="content__item">
+              <div class="title">협업 툴 활용 스킬</div>
+              <div class="desc">
+                Github, Jira, Notion, Slack 등 다양한 협업 툴을 활용하여 팀 프로젝트를 진행하기 때문에 실무에서도 자유자재로 사용 할 수 있습니다.
+              </div>
+            </li>
+            <li class="content__item">
+              <div class="title">커뮤니케이션 역량</div>
+              <div class="desc">
+                장기적인 팀 프로젝트를 통해 실무 협업의 방식을 간접 경험합니다. 문제의 실마리를 동료와 함께 찾고 커뮤니케이션을 통해 해결해 나가며
+                효율적인 소통 방식을 배웁니다.
+              </div>
+            </li>
+            <li class="content__item">
+              <div class="title">자기 주도 학습을 통한 전문성 강화</div>
+              <div class="desc">
+                주니어 개발자가 되었다고 해서 끝이 아닙니다. 본 과정을 통해 학습을 위한 기본 체력을 다졌기 때문에 차후 전문성을 갖추기 위한 목표를
+                스스로 세워 학습할 수 있습니다.
+              </div>
+            </li>
+          </ul>
+          <div class="footer">
+            " 새로운 환경에 빠르게 적응해 나갈 수 있는<br />
+            경쟁력 있는 개발자로 성장하고 싶다면 지금 도전해 봅시다!"
+          </div>
+        </article>
+        <article class="teacher">
+          <div class="title">
+            프론트엔드 분야<br />
+            현업 전문가
+          </div>
+          <div class="lecturer">
+            <div class="title">강사</div>
+            <div class="desc">실무에 있는 현업 전문가가 이론부터 실습까지 함께 하며 생생한 교육을 진행합니다.</div>
+            <ul class="contents">
+              <li class="content__item">
+                <div class="name">김태희</div>
+                <ul class="history">
+                  <li class="history__item">현) WATCHA 프론트엔드 엔지니어</li>
+                  <li class="history__item">전) ODK Media, Inc. 개발자</li>
+                  <li class="history__item">전) Streami Inc. 리드 엔지니어</li>
+                </ul>
+                <div class="tags">
+                  <div class="tag">VanillaJS</div>
+                </div>
+                <div class="detail">
+                  프론트엔드 분야는 얼마나 잘 알고 있느냐에 따라 결과물의 퀄리티가 크게 차이납니다. KDT는 여러분의 결과물을 더욱 풍부하고 멋지게
+                  만들어줄 수 있도록 좋은 가이드가 되어줄 것입니다.
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="name">노지연</div>
+                <ul class="history">
+                  <li class="history__item">전) 카카오뱅크 데이터 시각화 엔지니어</li>
+                  <li class="history__item">전) Flitto 백엔드 개발자</li>
+                </ul>
+                <div class="tags">
+                  <div class="tag">데이터시각화</div>
+                </div>
+                <div class="detail">
+                  프로그래머스 KDT는 단순하게 '다뤄봤다'로 끝나는 교육 과정이 아닌 필요한 소양을 배우고 자기 것으로 만들 수 있는 코드리뷰, 프로젝트
+                  과정이 있어 강력히 추천 드립니다! 그중에서도 제가 담당한 데이터 시각화 파트는 시각화를 어떤 것부터 시작해야 하는지 막막하던 분들에게
+                  추천드립니다.
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="name">레온</div>
+                <ul class="history">
+                  <li class="history__item">현) ES, Vue 프론트엔드 리드</li>
+                  <li class="history__item">오피스 관리 솔루션(SaaS) FullStack 개발</li>
+                  <li class="history__item">데이터 시각화 프로젝트 다수 개발</li>
+                </ul>
+                <div class="tags">
+                  <div class="tag">Vue</div>
+                  <div class="tag">CSS심화</div>
+                </div>
+
+                <div class="detail">강사/운영진의 압도적인 전문성과 헌신적인 노력으로, 프론트엔드 개발을 위한 최고의 경험을 쌓을 수 있어요!</div>
+              </li>
+              <li class="content__item">
+                <div class="name">유인동</div>
+                <ul class="history">
+                  <li class="history__item">현) MARPPLE CTO</li>
+                  <li class="history__item">전) 카카오, 엔씨소프트 개발자</li>
+                  <li class="history__item">함수형 라이브러리 다수 개발</li>
+                </ul>
+                <div class="tags">
+                  <div class="tag">함수형프로그래밍</div>
+                </div>
+                <div class="detail"></div>
+              </li>
+              <li class="content__item">
+                <div class="name">이선협</div>
+                <ul class="history">
+                  <li class="history__item">현) 코발트 리드 개발자</li>
+                  <li class="history__item">전) 파킹스퀘어 풀스택 개발자</li>
+                  <li class="history__item">오픈소스 다수 기여</li>
+                  <li class="history__item">&ltVue.js 이 정도는 알아야지&gt 저자</li>
+                </ul>
+                <div class="tags">
+                  <div class="tag">JavaScript</div>
+                  <div class="tag">React</div>
+                </div>
+                <div class="detail">
+                  KDT 프론트엔드 과정은 효과적인 JavaScript 사용 방법, React와 Vue.js까지 모든 과정까지 프론트엔드 직무에 필요한 필수 지식을 다룹니다.
+                  만약 프론트엔드 개발자로서 성장을 원하신다면 해당 과정을 강력하게 추천합니다.
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="mentor">
+            <div class="title">멘토</div>
+            <div class="desc">팀 멘토링, 과제 및 코드 리뷰를 진행하며 수강생의 바로 옆에서 적극적으로 도와드립니다.</div>
+            <ul class="contents">
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt01.png)"></div>
+                <div class="detail">
+                  <div class="name">김나영</div>
+                  <div class="history">뱅크샐러드 프론트엔드 개발자</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt02.png)"></div>
+                <div class="detail">
+                  <div class="name">김동영</div>
+                  <div class="history">
+                    3년차 웹 개발자 비영리단체<br />
+                    'DND' 운영
+                  </div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt03.png)"></div>
+                <div class="detail">
+                  <div class="name">김요한</div>
+                  <div class="history">FreeD Group 프론트엔드 개발자</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt04.png)"></div>
+                <div class="detail">
+                  <div class="name">김지은</div>
+                  <div class="history">코발트 프론트엔드 개발자</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt05.png)"></div>
+                <div class="detail">
+                  <div class="name">박영웅</div>
+                  <div class="history">질링스 프론트엔드 개발자</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt06.png)"></div>
+                <div class="detail">
+                  <div class="name">성기동</div>
+                  <div class="history">도울정보기술 개발 리더</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt07.png)"></div>
+                <div class="detail">
+                  <div class="name">이동근</div>
+                  <div class="history">당근마켓 프론트엔드 개발자</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt08.png)"></div>
+                <div class="detail">
+                  <div class="name">이재호</div>
+                  <div class="history">그린랩스 프론트엔드 개발자</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt09.png)"></div>
+                <div class="detail">
+                  <div class="name">이찬희</div>
+                  <div class="history">DANO 프론트엔드 개발자</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt10.png)"></div>
+                <div class="detail">
+                  <div class="name">이화랑</div>
+                  <div class="history">Qualson 프론트엔드 개발자</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt11.png)"></div>
+                <div class="detail">
+                  <div class="name">이희찬</div>
+                  <div class="history">크몽 프론트엔드 개발자</div>
+                </div>
+              </li>
+              <li class="content__item">
+                <div class="photo" style="background-image: url(/assets/mentors/sec_teacher_mt12.png)"></div>
+                <div class="detail">
+                  <div class="name">오프</div>
+                  <div class="history">글로벌 메신저 프론트엔드 개발자</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="special-lecture">
+          <div class="title">IT 동향부터 커리어까지 한 번에!</div>
+          <div class="desc">
+            교육생들이 궁금해할 만한 업계의 모습,<br />
+            취업 준비에 필요한 역량 등 생생한 경험을 현직자가 직접 공유합니다.
+          </div>
+          <ul class="contents">
+            <li class="content__item">
+              <img src="/assets/sec_teacher_summary_ico01.png" alt="icon" class="icon" />
+              기술 관련 특강
+            </li>
+            <li class="content__item">
+              <img src="/assets/sec_teacher_summary_ico02.png" alt="icon" class="icon" />
+              이력서/면접 특강
+            </li>
+            <li class="content__item">
+              <img src="/assets/sec_teacher_summary_ico03.png" alt="icon" class="icon" />
+              협업 관련 특강
+            </li>
+          </ul>
+        </article>
+        <article class="career">
+          <div class="title">
+            성공적인 취업을<br />
+            위한 커리어 서비스
+          </div>
+          <ul class="contents">
+            <li class="content__item">
+              <img src="/assets/career-img-1.png" alt="" class="image" />
+              <div class="detail">
+                <div class="title">밀착 면담을 통한 로드맵 설계</div>
+                <div class="desc">실무에 있는 개발자 멘토와 면담을 진행하여 본 과정을 통해 어떻게 학습하여 커리어를 만들어 나갈지 상담을 합니다.</div>
+              </div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/career-img-2.png" alt="" class="image" />
+              <div class="detail">
+                <div class="title">현업 선배와 매주 커피챗 타임</div>
+                <div class="desc">
+                  1주일에 한 번 선배님과 커피챗을 진행합니다. 선배들의 다양한 경험을 토대로 기술 및 커리어에 대한 궁금한 점을 자유롭게 물어봅니다.
+                </div>
+              </div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/career-img-3.png" alt="" class="image" />
+              <div class="detail">
+                <div class="title">기술 면접 대비를 위한 특강</div>
+                <div class="desc">실제 기업의 실무 담당자 연사님을 모시고 이력서부터 면접까지 꿀팁을 얻을 수 있는 특강을 진행합니다.</div>
+              </div>
+            </li>
+            <li class="content__item">
+              <img src="/assets/career-img-4.png" alt="" class="image" />
+              <div class="detail">
+                <div class="title">이력서 작성 및 피드백</div>
+                <div class="desc">실무자의 피드백을 바탕으로 기업 맞춤형 이력서와 자기소개서를 완성할 수 있습니다.</div>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <article class="price">
+          <div class="title">가격 안내</div>
+          <div class="price__detail">
+            <div class="product title">
+              프로그래머스 데브코스 :<br />
+              빅데이터 플랫폼<br />
+              프론트엔드 엔지니어링
+            </div>
+            <ul class="contents">
+              <li class="content__item">
+                <div class="factor">정가</div>
+                <div class="factor__price">9,619,500원</div>
+              </li>
+              <li class="content__item">
+                <div class="factor">내일배움카드 소지자</div>
+                <div class="factor__price">- 9,619,500원</div>
+              </li>
+              <li class="content__item">
+                <div class="factor">최종금액</div>
+                <div class="factor__price">0원</div>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="interview">
+          <div class="title">
+            교육생이 말하는<br />
+            프론트엔드 데브코스
+          </div>
+          <div class="contents">
+            <div class="content__item content__item--focused">
+              <div class="head">
+                <img src="/assets/interviewer/sec_interview_profile01.png" alt="" class="image" />
+                <div class="interviewer-info">
+                  <div class="name">윤상준 (1기)</div>
+                  <div class="company">노리코리아 개발자</div>
+                </div>
+              </div>
+              <div class="detail">
+                5개월 간의 교육기간동안 정말 많은 것을 얻어갔습니다. 그중에서 가장 큰 도움이 되었던 것은 자생력과 같이 공부했던 팀원들이였습니다. 어떤
+                기술을 사용할줄 아는것이 아닌 어떻게 학습하고 적용하는지에 대해 배우고 팀원들과 자발적인 스터디를 만들고 같이 프로젝트를 하면서 많은
+                것을 배웠습니다. 또한 비전공자 입장에서는 듣기 힘든 현업이야기를 통해서 전체적인 커리어 윤곽을 잡는데 도움이 많이 되었습니다. 가랑비에
+                옷 젖듯이 몰라보게 성장한 자신을 발견 할 수 있습니다.
+              </div>
+            </div>
+            <div class="content__item">
+              <div class="head">
+                <img src="/assets/interviewer/sec_interview_profile02.png" alt="" class="image" />
+                <div class="interviewer-info">
+                  <div class="name">황재영 (1기)</div>
+                  <div class="company">컨트롤클로더 인턴</div>
+                </div>
+              </div>
+              <div class="detail">
+                5개월간 데브코스를 수강하며, '자생력 있는 개발자' 라는 말이 무엇인지를 다시금 헤아려볼 수 있는 시간을 가졌습니다. 풍부한 강의 역시
+                깊이 있는 공부를 병행하는 데 큰 도움을 주었지만, 팀 단위의 스크럼, 실무진들과의 미팅, 과제, 스터디, 코드리뷰, 프로젝트들은 자율적인
+                환경에서, 동료들과 함께 커뮤니케이션하며 문제 해결 능력을 기르는 데 큰 도움을 주었습니다.단순히 수동적인 학습이 아니라 프론트엔드
+                개발의 거시적인 흐름을 이해하고, 스스로 질문을 던지며 해답을 찾는 방법을 익히고 싶은 분들께 이 프로그램을 추천드립니다.
+              </div>
+            </div>
+            <div class="content__item">
+              <div class="head">
+                <img src="/assets/interviewer/sec_interview_profile03.png" alt="" class="image" />
+                <div class="interviewer-info">
+                  <div class="name">임효성 (1기)</div>
+                  <div class="company">당근마켓 인턴</div>
+                </div>
+              </div>
+              <div class="detail">
+                프론트엔드 개발자로 성장하는 데 좋은 발판이 됐어요. 데브코스의 가장 큰 장점을 뽑자면 ‘성장을 위한 환경 구축’이라 생각해요. 지치지 않게
+                도와주시는 교육 매니저님, 멘토님 그리고 열정 있는 수강생들과 함께 과제를 수행하고 프로젝트를 하는 것만으로 어떻게 공부할지 모르는
+                의문을 해결할 수 있었어요. 단순히 지식을 습득할 뿐만 아니라 협업 방법, 코드 품질 등 개발자에게 필요한 요소들을 배우며 좋은 개발자로
+                성장할 수 있었어요.
+              </div>
+            </div>
+            <div class="content__item">
+              <div class="head">
+                <img src="/assets/interviewer/sec_interview_profile04.png" alt="" class="image" />
+                <div class="interviewer-info">
+                  <div class="name">권정희 (1기)</div>
+                  <div class="company">grepp 인턴</div>
+                </div>
+              </div>
+              <div class="detail">
+                다양한 수강생들과 멘토님들을 접하면서 시야를 넓힐 수 있었습니다. 이를 통해 자신이 어떤 개발자인지, 어떤 학습 방법이 가장 적합한지
+                알아갈 수 있었습니다. 단순히 지식을 습득하는 것 뿐만 아니라, 어떤 기술을 선택할지 등과 같은 크고 작은 주제를 수강생들과 함께 고민하며
+                스스로 결정하는 힘도 키울 수 있습니다. 무엇보다 리액트로 프론트엔드 개발에 입문해 부족했던 기본기를 쌓을 수 있었습니다. 중간중간 알찬
+                세션들을 통해서 흥미로운 실무와 트렌드 이야기도 접할 수 있어 좋았습니다.
+              </div>
+            </div>
+            <div class="content__item">
+              <div class="head">
+                <img src="/assets/interviewer/sec_interview_profile05.png" alt="" class="image" />
+                <div class="interviewer-info">
+                  <div class="name">김찬민 (1기)</div>
+                  <div class="company">삼성 SDS 개발자</div>
+                </div>
+              </div>
+              <div class="detail">
+                현업에서 개발자로 활동 중이신 강사님들의 강의, 멘토링을 바탕으로 다양한 프로젝트를 수행하면서 이론과 실무 간의 간극을 해결하는데 많은
+                도움이 되었습니다. 혼자서 학습을 하다 보면 취업 공고에서 요구하는 스펙들을 왜 필요한 건지 모르고 학습하는 경우가 많은데요. 데브코스를
+                통해 도구의 필요성, 활용법들을 익혀 나갔고, 이를 바탕으로 개발에 필요한 도구를 스스로 선택해서 학습하고, 사용하는 역량을 향상 시킬 수
+                있었습니다.
+              </div>
+            </div>
+          </div>
+          <div class="controler">
+            <div class="progress-rate">01/05</div>
+            <div class="progress-bar"><div class="bar"></div></div>
+            <div class="button button--prev"><img class="icon" src="/assets/sec_review_slider_arr_next.png" alt="" /></div>
+            <div class="button button--next"><img class="icon" src="/assets/sec_review_slider_arr_next.png" alt="" /></div>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="title">FAQ</div>
+          <div class="contents">
+            <div class="content__item">
+              <input type="radio" id="faq-1" name="faq" />
+              <label for="faq-1">
+                <div class="head">
+                  <div class="title">지금 당장 국민내일배움카드가 없는데 신청해도 되나요?</div>
+                  <div class="icon">
+                    <span class="material-symbols-rounded"> expand_more </span>
+                  </div>
+                </div>
+                <div class="desc">
+                  신청할 수 있습니다. 다만 최소 3월 7일(월)까지는 카드를 발급하셔야 하며, 만약 현재 신규 발급 단계인 경우 인터넷을 통해 신청 바라며,
+                  상담 시 ‘K-Digital Training 교육 신청을 위해 발급한다’ 고 언급하여 비교적 빠른 발급에 도움을 받으시길 바랍니다.
+                </div>
+              </label>
+            </div>
+            <div class="content__item">
+              <input type="radio" id="faq-2" name="faq" />
+              <label for="faq-2">
+                <div class="head">
+                  <div class="title">실력 확인 테스트는 어떤 문제로 구성되어 있나요?</div>
+                  <div class="icon">
+                    <span class="material-symbols-rounded"> expand_more </span>
+                  </div>
+                </div>
+                <div class="desc">
+                  JavaScript만 가능하며 C++, Java 등 타 언어로 응시 불가합니다. 본 과정에서는 JavaScript을 주 언어로 사용하기 때문에 JavaScript실력을
+                  확인하는 것이 가장 중요합니다. 난이도는 프로그래머스의 ‘코딩테스트 연습’ 페이지에 수록된 문제들 중 Lv2을 무난하게 풀 수 있다면 큰
+                  걱정을 하지 않아도 됩니다.
+                </div>
+              </label>
+            </div>
+            <div class="content__item">
+              <input type="radio" id="faq-3" name="faq" />
+              <label for="faq-3">
+                <div class="head">
+                  <div class="title">재직자도 이 과정을 들을 수 있나요?</div>
+                  <div class="icon">
+                    <span class="material-symbols-rounded"> expand_more </span>
+                  </div>
+                </div>
+                <div class="desc">
+                  내일배움카드가 국민내일배움카드로 변경되면서 재직자도 발급 가능해졌습니다. 따라서, 발급을 받으셨다면 들을 수는 있지만,
+                  <span class="bold">교육시간과 근무시간이 겹치면 안됩니다.</span> 해당 과정은 하루에 최소 5시간 이상 학습 해야하며 때에 따라선
+                  오프라인에서도 진행됩니다. 그렇기 때문에 자율적인 회사에 재직중이 아니라면 사실상 불가합니다.
+                </div>
+              </label>
+            </div>
+            <div class="content__item">
+              <input type="radio" id="faq-4" name="faq" />
+              <label for="faq-4">
+                <div class="head">
+                  <div class="title">교육 시작하기 전에 미리 공부를 하고 싶어요. 어떤 걸 공부해야 하나요?</div>
+                  <div class="icon">
+                    <span class="material-symbols-rounded"> expand_more </span>
+                  </div>
+                </div>
+                <div class="desc">
+                  기본적으로 JavaScript 언어가 가능해야 합니다. 부족함을 느끼면 아래 내용을 수업 전에 읽고 소화하고 오세요.<br />
+                  - <a href="https://programmers.co.kr/learn/courses/10">자바스크립트와 웹프론트엔드</a><br />
+                  - <a href="https://programmers.co.kr/learn/courses/3">Hello, JavaScript</a><br />
+                  - <a href="https://programmers.co.kr/learn/courses/11">정규표현식</a><br />
+                  - <a href="https://d2.naver.com/helloworld/59361">브라우저는 어떻게 동작하는가?</a>from NAVAER D2(번역글)<br />
+                  -
+                  <a href="https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/">
+                    자바스크립트의 비동기 처리와 콜백함수
+                  </a>
+                  by 장기효님<br />
+                  - <a href="https://wit.nts-corp.com/2019/02/14/5522">DOM은 무엇일까?</a>
+                  by 고우영님
+                </div>
+              </label>
+            </div>
+            <div class="content__item">
+              <input type="radio" id="faq-5" name="faq" />
+              <label for="faq-5">
+                <div class="head">
+                  <div class="title">선발 과정을 자세히 알고 싶습니다.</div>
+                  <div class="icon">
+                    <span class="material-symbols-rounded"> expand_more </span>
+                  </div>
+                </div>
+                <div class="desc">
+                  <span class="bold">1차 : 지원 가능 여부 검토 및 테스트 안내</span> <br />
+                  1. 프로그래머스를 통해 과정에 등록합니다. 지원양식을 꼼꼼히 입력합니다. <br />
+                  2. 프로그래머스에서 1단계에서 진행한 내용을 토대로 지원 가능 여부 심사 후, 코딩 테스트 안내 메일을 발송합니다. <br />
+                  <br />
+                  <span class="bold">2차 : 실력 확인 테스트</span> : 2월 19(토) 오후 2시 ~ 5시(3시간) <br />
+                  1. 과정 수료를 위한 기본 실력을 점검하기 위한 테스트 받습니다. <br />
+                  2. 주어진 일정에 따라 테스트에 응시하고, 결과를 확인합니다. <br />
+                  <br />
+                  <span class="bold">3차: 면접 심사</span> : 2월 24일(목) ~ 3월 3일(목) <br />
+                  1. 2차 까지 모두 통과한 후 실제 과정 운영진, 강사진과의 면접을 진행합니다. <br />
+                  2. 지원서에 작성하신 내용에 대해 조금 더 면밀한 질문을 드리게 됩니다. <br />
+                  <br />
+                  <span class="bold">최종 선발</span> : 3월 7일(월) <br />
+                  모든 절차가 끝난 후 최종 선발된 인원을 발표합니다. 개별적으로 안내드립니다. <br />
+                  <br />
+                  <span class="bold">주의사항</span> <br />
+                  1. 본인이 소지한 국민내일배움카드의 교육 신청 가능 잔여 횟수를 확인해주세요. <br />
+                  2. 또한 카드 잔액이 0원인 경우 본 과정에 등록할 수 없으며 심사 단계로 넘어가지 않습니다. <br />
+                  3. 프로그래머스에서 지원서를 작성했다고 하더라도 HRD-net 에서 신청이 되어있지 않거나 자격이 되지 않는 경우 자동적으로 탈락됩니다.
+                  <br />
+                </div>
+              </label>
+            </div>
+            <div class="content__item">
+              <input type="radio" id="faq-6" name="faq" />
+              <label for="faq-6">
+                <div class="head">
+                  <div class="title">국민내일배움카드 발급 및 HRD-net 수강신청은 어떻게 하나요?</div>
+                  <div class="icon">
+                    <span class="material-symbols-rounded"> expand_more </span>
+                  </div>
+                </div>
+                <div class="desc">
+                  <ol>
+                    <li><a href="https://www.hrd.go.kr/">'고용노동부 직업훈련포털'</a> 회원가입 하기</li>
+                    <li>국민내일배움카드 발급 신청 (관할 고용센터)</li>
+                    <li>'고용노동부 직업훈련 포털'에서 안내 동영상 수강하기</li>
+                    <li>계좌 발급 승인 여부 결정하기 (관할 고용 센터)</li>
+                    <li>개강일 확인 후 '고용노동부 직업 훈련 포털'에서 훈련 과정 검색하기</li>
+                    <li>구비서류 준비 및 수강신청(관할 고용센터)</li>
+                    <li>지원가능여부 결정 및 지원(관할 고용센터)</li>
+                    <li>카드발급완료(훈련시작일 전까지 실물수령 필수)</li>
+                  </ol>
+                </div>
+              </label>
+            </div>
+          </div>
+        </article>
+        <article class="kakao-banner">
+          <div class="content-box content-box--has-button">
+            <div class="content-box__header">우리, 카카오톡 친구해요!</div>
+            <div class="content-box__content">
+              프로그래머스 교육 카카오 채널 친구 추가를 해주세요.<br />
+              신규 교육 과정 소식은 물론 다양한 이벤트 소식까지 가장 먼저 알려드립니다.
+            </div>
+            <a class="link-button" href="https://programmers.co.kr/learn/courses/13476/notification_form"> 친구하고 소식받기 </a>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__menu-wrapper">
+        <div class="footer__service">
+          <div class="title">서비스</div>
+          <ul class="contents">
+            <li class="content__item"><a href="https://programmers.co.kr/">개발자용 프로그래머스</a></li>
+            <li class="content__item"><a href="https://business.programmers.co.kr/">기업용 프로그래머스</a></li>
+            <li class="content__item"><a href="https://school.programmers.co.kr/">프로그래머스 스쿨</a></li>
+          </ul>
+        </div>
+        <div class="footer__inquiry">
+          <div class="title">문의</div>
+          <ul class="contents">
+            <li class="content__item">
+              <a href="https://programmers.co.kr/zendesk/main">
+                FAQ/문의 <span class="material-symbols-rounded" style="font-size: 14px; font-weight: 700"> open_in_new </span>
+              </a>
+            </li>
+            <li class="content__item">
+              <a href="https://programmers.zendesk.com/hc/ko/requests/new">
+                교육 결제, 환불 관련 문의 <span class="material-symbols-rounded" style="font-size: 14px; font-weight: 700"> open_in_new </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__customer">
+          <div class="title">고객센터</div>
+          <div class="head">대표 번호: 1533-1886</div>
+          <div class="desc">
+            운영시간 : 오전 9시 ~ 오후 6시 (주말 및 공휴일 휴무)<br />
+            점심시간 : 오후 12시 ~ 오후 1시
+          </div>
+        </div>
+        <div class="footer__family">
+          <input type="checkbox" id="family" />
+          <label class="family-label" for="family">
+            <div class="placeholder">패밀리사이트</div>
+            <div class="sites">
+              <a href="https://www.grepp.co/" target="_blank">그렙</a>
+              <a href="https://monito.io/" target="_blank">모니토</a>
+              <a href="https://hashcode.co.kr/" target="_blank">해시코드</a>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div class="footer__address">
+        <div class="head"><a href="https://programmers.co.kr/">2022 프로그래머스</a></div>
+        <div class="desc">
+          (주)그렙 / 공동대표 이확영, 임성수 / 서울특별시 서초구 강남대로 327, 2층 프로그래머스(서초동, 대륭서초타워) / 사업자등록번호 220-88-75699 /
+          통신판매업신고 제 2014-서울강남-03241호 / 직업정보제공사업 신고번호 J1200020180027 / 유료직업소개사업 등록번호
+          (국내)제2021-3210195-14-5-00026호 (국외)서울청 유 제2021-7호
+        </div>
+      </div>
+      <div class="footer__others">
+        <div class="info-wrapper">
+          <div class="policy"><a href="https://programmers.co.kr/privacy">개인정보 처리방침</a></div>
+          <div class="terms"><a href="https://programmers.co.kr/tos">이용약관</a></div>
+          <div class="employment"><a href="https://www.notion.so/prgrms/grepp-772559b20f9f451c94b568468eb53f47">프로그래머스 인재 채용</a></div>
+        </div>
+        <div class="external-wrapper">
+          <a class="icon" href="https://www.facebook.com/pg/programmersgrepp/about/" target="_blank">
+            <object type="image/svg+xml" data="/assets/ic_facebook.svg"></object>
+          </a>
+          <a class="icon" href="https://www.youtube.com/c/Programmerschannel" target="_blank">
+            <object type="image/svg+xml" data="/assets/ic_youtube.svg"></object>
+          </a>
+          <a class="icon" href="https://prgms.tistory.com/" target="_blank">
+            <object type="image/svg+xml" data="/assets/ic_blogger.svg"></object>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <div class="inquiry">
+      <div class="container">
+        <img src="/assets/gradient-body.png" alt="" />
+      </div>
+      <svg
+        width="48"
+        height="48"
+        viewBox="0 0 48 48"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="InnerIconstyled__Icon-sc-197h5bb-0 dChJGl LauncherIconstyled__Bubble-mnslcf-1 cRwgrT"
+        color="#242424"
+        defaultOpacity="1"
+        hoveredOpacity="1"
+        margintop="0"
+        marginright="0"
+        marginbottom="0"
+        marginleft="0"
+        style="position: absolute"
+      >
+        <g filter="url(#filter0_f)">
+          <path
+            fill="white"
+            fill-opacity="0.15"
+            d="M19.8462 20.1538C19.8462 22.448 19.2404 24.3077 17.4231 24.3077C15.6058 24.3077 15 22.448 15 20.1538C15 17.8597 15.6058 16 17.4231 16C19.2404 16 19.8462 17.8597 19.8462 20.1538Z"
+          ></path>
+          <path
+            fill="white"
+            fill-opacity="0.15"
+            d="M24.0001 29.8462C21.201 29.8462 19.7599 27.5828 19.3109 25.9843C19.1615 25.4526 19.6016 25.0001 20.1539 25.0001H27.8462C28.3985 25.0001 28.8386 25.4526 28.6893 25.9843C28.2402 27.5828 26.7992 29.8462 24.0001 29.8462Z"
+          ></path>
+          <path
+            fill="white"
+            fill-opacity="0.15"
+            d="M30.5768 24.3077C32.3941 24.3077 32.9999 22.448 32.9999 20.1538C32.9999 17.8597 32.3941 16 30.5768 16C28.7595 16 28.1537 17.8597 28.1537 20.1538C28.1537 22.448 28.7595 24.3077 30.5768 24.3077Z"
+          ></path>
+        </g>
+        <path
+          fill="#242424"
+          d="M19.8462 19.1538C19.8462 21.448 19.2404 23.3077 17.4231 23.3077C15.6058 23.3077 15 21.448 15 19.1538C15 16.8597 15.6058 15 17.4231 15C19.2404 15 19.8462 16.8597 19.8462 19.1538Z"
+        ></path>
+        <path
+          fill="#17113F"
+          fill-opacity="0.7"
+          d="M19.8462 19.1538C19.8462 21.448 19.2404 23.3077 17.4231 23.3077C15.6058 23.3077 15 21.448 15 19.1538C15 16.8597 15.6058 15 17.4231 15C19.2404 15 19.8462 16.8597 19.8462 19.1538Z"
+        ></path>
+        <path
+          fill="#242424"
+          d="M24.0001 28.8462C21.201 28.8462 19.7599 26.5828 19.3109 24.9843C19.1615 24.4526 19.6016 24.0001 20.1539 24.0001H27.8462C28.3985 24.0001 28.8386 24.4526 28.6893 24.9843C28.2402 26.5828 26.7992 28.8462 24.0001 28.8462Z"
+        ></path>
+        <path
+          fill="#17113F"
+          fill-opacity="0.7"
+          d="M24.0001 28.8462C21.201 28.8462 19.7599 26.5828 19.3109 24.9843C19.1615 24.4526 19.6016 24.0001 20.1539 24.0001H27.8462C28.3985 24.0001 28.8386 24.4526 28.6893 24.9843C28.2402 26.5828 26.7992 28.8462 24.0001 28.8462Z"
+        ></path>
+        <path
+          fill="#242424"
+          d="M30.5768 23.3077C32.3941 23.3077 32.9999 21.448 32.9999 19.1538C32.9999 16.8597 32.3941 15 30.5768 15C28.7595 15 28.1537 16.8597 28.1537 19.1538C28.1537 21.448 28.7595 23.3077 30.5768 23.3077Z"
+        ></path>
+        <path
+          fill="#17113F"
+          fill-opacity="0.7"
+          d="M30.5768 23.3077C32.3941 23.3077 32.9999 21.448 32.9999 19.1538C32.9999 16.8597 32.3941 15 30.5768 15C28.7595 15 28.1537 16.8597 28.1537 19.1538C28.1537 21.448 28.7595 23.3077 30.5768 23.3077Z"
+        ></path>
+        <defs>
+          <filter id="filter0_f" x="13" y="14" width="21.9999" height="17.8462" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+            <feGaussianBlur stdDeviation="1" result="effect1_foregroundBlur"></feGaussianBlur>
+          </filter>
+        </defs>
+      </svg>
+    </div>
+  </body>
+</html>
